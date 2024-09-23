@@ -1,6 +1,6 @@
 WITH raw_listings AS (
     SELECT
-        *
+        *, 1 as test_version
     FROM
         AIRBNB.RAW.RAW_LISTINGS
 )
@@ -16,3 +16,5 @@ SELECT
     updated_at
 FROM
     raw_listings
+
+--comment added
